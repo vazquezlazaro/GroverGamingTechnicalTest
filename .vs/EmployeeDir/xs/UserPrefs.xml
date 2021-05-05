@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{954DF9A3-CE62-4D62-AA5B-9082EFF8F494}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeDir/MainWindow.cs">
+    <Files>
+      <File FileName="EmployeeDir/Program.cs" Line="33" Column="1" />
+      <File FileName="EmployeeDir/MainWindow.cs" Line="17" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EmployeeDir" expanded="True">
+            <Node name="EmployeeDir" expanded="True">
+              <Node name="MainWindow.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.EmployeeDir PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

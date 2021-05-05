@@ -4,3 +4,9 @@
 /Users/luisvazquezlazaro/Projects/EmployeeDir/EmployeeDir/obj/anycpu/Debug/EmployeeDir.csproj.CoreCompileInputs.cache
 /Users/luisvazquezlazaro/Projects/EmployeeDir/EmployeeDir/obj/anycpu/Debug/EmployeeDir.exe
 /Users/luisvazquezlazaro/Projects/EmployeeDir/EmployeeDir/obj/anycpu/Debug/EmployeeDir.pdb
+/Users/luisvazquezlazaro/Projects/GroverGamingTechnicalTest/EmployeeDir/bin/Debug/EmployeeDir.exe
+/Users/luisvazquezlazaro/Projects/GroverGamingTechnicalTest/EmployeeDir/bin/Debug/EmployeeDir.pdb
+/Users/luisvazquezlazaro/Projects/GroverGamingTechnicalTest/EmployeeDir/obj/anycpu/Debug/EmployeeDir.csprojAssemblyReference.cache
+/Users/luisvazquezlazaro/Projects/GroverGamingTechnicalTest/EmployeeDir/obj/anycpu/Debug/EmployeeDir.csproj.CoreCompileInputs.cache
+/Users/luisvazquezlazaro/Projects/GroverGamingTechnicalTest/EmployeeDir/obj/anycpu/Debug/EmployeeDir.exe
+/Users/luisvazquezlazaro/Projects/GroverGamingTechnicalTest/EmployeeDir/obj/anycpu/Debug/EmployeeDir.pdb
