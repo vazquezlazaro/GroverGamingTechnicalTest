@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+  </configuration>
+  <import>
+    <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <widget-library name="../bin/Debug/EmployeeDir.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="FullName" design-size="412 300">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">MainWindow</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.Fixed" id="fixed1">
+        <property name="MemberName" />
+        <property name="HasWindow">False</property>
+        <child>
+          <placeholder />
+        </child>
+        <child>
+          <placeholder />
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="Header">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Employee Directory</property>
+          </widget>
+          <packing>
+            <property name="X">132</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="btnUpdate">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Update</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">159</property>
+            <property name="Y">233</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="btnDelete">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Delete</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">259</property>
+            <property name="Y">236</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="btnAdd">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Add</property>
+            <property name="UseUnderline">True</property>
+          </widget>
+          <packing>
+            <property name="X">77</property>
+            <property name="Y">235</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Entry" id="FirstName">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="IsEditable">True</property>
+            <property name="InvisibleChar">●</property>
+          </widget>
+          <packing>
+            <property name="X">186</property>
+            <property name="Y">64</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Entry" id="jobTitle">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="IsEditable">True</property>
+            <property name="InvisibleChar">●</property>
+          </widget>
+          <packing>
+            <property name="X">191</property>
+            <property name="Y">100</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="labFname">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Full Name</property>
+          </widget>
+          <packing>
+            <property name="X">68</property>
+            <property name="Y">68</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="labJobTitle">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">Job Title</property>
+          </widget>
+          <packing>
+            <property name="X">64</property>
+            <property name="Y">105</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>

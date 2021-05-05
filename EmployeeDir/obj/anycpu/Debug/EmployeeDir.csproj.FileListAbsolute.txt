@@ -1,0 +1,6 @@
+/Users/luisvazquezlazaro/Projects/EmployeeDir/EmployeeDir/bin/Debug/EmployeeDir.exe
+/Users/luisvazquezlazaro/Projects/EmployeeDir/EmployeeDir/bin/Debug/EmployeeDir.pdb
+/Users/luisvazquezlazaro/Projects/EmployeeDir/EmployeeDir/obj/anycpu/Debug/EmployeeDir.csprojAssemblyReference.cache
+/Users/luisvazquezlazaro/Projects/EmployeeDir/EmployeeDir/obj/anycpu/Debug/EmployeeDir.csproj.CoreCompileInputs.cache
+/Users/luisvazquezlazaro/Projects/EmployeeDir/EmployeeDir/obj/anycpu/Debug/EmployeeDir.exe
+/Users/luisvazquezlazaro/Projects/EmployeeDir/EmployeeDir/obj/anycpu/Debug/EmployeeDir.pdb
