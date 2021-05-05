@@ -7,7 +7,7 @@
     <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
     <widget-library name="../bin/Debug/EmployeeDir.exe" internal="true" />
   </import>
-  <widget class="Gtk.Window" id="FullName" design-size="412 300">
+  <widget class="Gtk.Window" id="MainWindow" design-size="412 340">
     <property name="MemberName" />
     <property name="Title" translatable="yes">MainWindow</property>
     <property name="WindowPosition">CenterOnParent</property>
@@ -64,6 +64,7 @@
             <property name="Type">TextOnly</property>
             <property name="Label" translatable="yes">Add</property>
             <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="BtnAdd_Click" />
           </widget>
           <packing>
             <property name="X">77</property>
@@ -113,6 +114,18 @@
             <property name="X">64</property>
             <property name="Y">105</property>
           </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="label5">
+            <property name="MemberName" />
+          </widget>
+          <packing>
+            <property name="X">226</property>
+            <property name="Y">287</property>
+          </packing>
+        </child>
+        <child>
+          <placeholder />
         </child>
       </widget>
     </child>

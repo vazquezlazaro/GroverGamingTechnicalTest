@@ -21,14 +21,16 @@ public partial class MainWindow
 
 	private global::Gtk.Label labJobTitle;
 
+	private global::Gtk.Label label5;
+
 	protected virtual void Build()
 	{
 		global::Stetic.Gui.Initialize(this);
-		// Widget FullName
-		this.Name = "FullName";
+		// Widget MainWindow
+		this.Name = "MainWindow";
 		this.Title = global::Mono.Unix.Catalog.GetString("MainWindow");
 		this.WindowPosition = ((global::Gtk.WindowPosition)(4));
-		// Container child FullName.Gtk.Container+ContainerChild
+		// Container child MainWindow.Gtk.Container+ContainerChild
 		this.fixed1 = new global::Gtk.Fixed();
 		this.fixed1.Name = "fixed1";
 		this.fixed1.HasWindow = false;
@@ -105,14 +107,22 @@ public partial class MainWindow
 		global::Gtk.Fixed.FixedChild w8 = ((global::Gtk.Fixed.FixedChild)(this.fixed1[this.labJobTitle]));
 		w8.X = 64;
 		w8.Y = 105;
+		// Container child fixed1.Gtk.Fixed+FixedChild
+		this.label5 = new global::Gtk.Label();
+		this.label5.Name = "label5";
+		this.fixed1.Add(this.label5);
+		global::Gtk.Fixed.FixedChild w9 = ((global::Gtk.Fixed.FixedChild)(this.fixed1[this.label5]));
+		w9.X = 226;
+		w9.Y = 287;
 		this.Add(this.fixed1);
 		if ((this.Child != null))
 		{
 			this.Child.ShowAll();
 		}
 		this.DefaultWidth = 412;
-		this.DefaultHeight = 300;
+		this.DefaultHeight = 340;
 		this.Show();
 		this.DeleteEvent += new global::Gtk.DeleteEventHandler(this.OnDeleteEvent);
+		this.btnAdd.Clicked += new global::System.EventHandler(this.BtnAdd_Click);
 	}
 }

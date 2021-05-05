@@ -45,8 +45,10 @@ namespace EmployeeDir
             return fname;
         }
 
-
-
+        public override string ToString()
+        {
+            return fname + " " + jobTitle;
+        }
 
     }
 }
