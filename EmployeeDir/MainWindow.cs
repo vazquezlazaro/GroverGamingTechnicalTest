@@ -25,18 +25,36 @@ public partial class MainWindow : Gtk.Window
 
         string combindedString = string.Join("\n", employees);
        
-        this.label5.Text ="Name | Job Title\n" + "\n" + combindedString;
+        this.label5.Text ="Name | Job Title\n" + combindedString;
 
     }
 
     private void BtnUpdate_Click(object sender, EventArgs args)
     {
+        string name = this.FirstName.Text;
+        
         this.label5.Text = "Update works";
     }
 
     private void BtnDelete_Click(object sender, EventArgs args)
     {
-        this.label5.Text = "delete works";
+        string name = this.FirstName.Text;
+        int result = employees.FindIndex(emp => emp.fname == name);
+        /*
+        foreach(var employee in employees)
+        {
+            if(employee.GetName() == name)
+            {
+                employees.Remove(employee);
+                count--;
+            }
+        }*/
+        employees.Remove(employees[result]);
+
+        string combindedString = string.Join("\n", employees);
+
+        this.label5.Text = "Name | Job Title\n" + combindedString;
+        //this.label5.Text = "delete works result = "+ result;
     }
 
 }
