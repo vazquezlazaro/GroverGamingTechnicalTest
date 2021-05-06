@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{954DF9A3-CE62-4D62-AA5B-9082EFF8F494}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="EmployeeDir/MainWindow.cs">
     <Files>
-      <File FileName="EmployeeDir/Program.cs" Line="29" Column="10" />
-      <File FileName="EmployeeDir/MainWindow.cs" Line="1" Column="1" />
+      <File FileName="EmployeeDir/Program.cs" Line="31" Column="1" />
+      <File FileName="EmployeeDir/MainWindow.cs" Line="25" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,9 +14,6 @@
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
