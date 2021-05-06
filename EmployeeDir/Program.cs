@@ -44,7 +44,10 @@ namespace EmployeeDir
         {
             return fname;
         }
-
+        public void SetJobTitle(string title)
+        {
+            jobTitle = title;   
+        }
         public override string ToString()
         {
             return fname + " " + jobTitle;

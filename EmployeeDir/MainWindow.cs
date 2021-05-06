@@ -22,39 +22,30 @@ public partial class MainWindow : Gtk.Window
     {
         employees.Add(new EmployeeDir.Employee(this.FirstName.Text, this.jobTitle.Text));
         count++;
-
-        string combindedString = string.Join("\n", employees);
-       
-        this.label5.Text ="Name | Job Title\n" + combindedString;
-
+        PrintDir();
     }
 
     private void BtnUpdate_Click(object sender, EventArgs args)
     {
         string name = this.FirstName.Text;
-        
-        this.label5.Text = "Update works";
+        int result = employees.FindIndex(emp => emp.fname == name);
+        employees[result].SetJobTitle(this.jobTitle.Text);
+        PrintDir();
     }
 
     private void BtnDelete_Click(object sender, EventArgs args)
     {
         string name = this.FirstName.Text;
         int result = employees.FindIndex(emp => emp.fname == name);
-        /*
-        foreach(var employee in employees)
-        {
-            if(employee.GetName() == name)
-            {
-                employees.Remove(employee);
-                count--;
-            }
-        }*/
+       
         employees.Remove(employees[result]);
+        PrintDir();
+    }
 
+    private void PrintDir()
+    {
         string combindedString = string.Join("\n", employees);
-
         this.label5.Text = "Name | Job Title\n" + combindedString;
-        //this.label5.Text = "delete works result = "+ result;
     }
 
 }
